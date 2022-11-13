@@ -1,12 +1,13 @@
-package practice;
+package practice.string;
 
 public class StringReverse {
     public static void main(String[] args) {
 
+        // first approach using StringBuilder/StringBuffer class
         System.out.println(reverse("Java Programming"));
 
+        // second approach using char[]
         rev("java");
-
     }
 
     // first approach using StringBuilder/StringBuffer class
