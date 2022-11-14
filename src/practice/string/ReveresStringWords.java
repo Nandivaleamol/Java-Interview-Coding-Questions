@@ -2,12 +2,13 @@ package practice.string;
 
 public class ReveresStringWords {
     public static void main(String[] args) {
-        String s = reverseWord("java is a high level programming language");
+        String str = "java is a high level programming language";
+        String s = reverseWord(str);
         System.out.println(s);
     }
     // reversing string sentence by words
     public static String reverseWord(String str){
-        String str1=null;
+        String str1="";
         if (str==null){
             throw new IllegalArgumentException("Null is not valid argument");
         }else{
