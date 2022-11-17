@@ -5,7 +5,6 @@ public class LowerToUpperViceVersa {
         StringBuffer str = new StringBuffer( "Java Programming");
         convertOpposite(str);
     }
-
     public static void convertOpposite(StringBuffer str){
         int len = str.length();
 
