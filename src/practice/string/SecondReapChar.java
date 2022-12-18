@@ -26,7 +26,7 @@ public class SecondReapChar {
                 stringBuffer.append(ch[i]);
                 //System.out.println(ch[i]);
         }
-        System.out.println(stringBuffer.charAt(1));
+        System.out.println("2nd non repeating char: "+stringBuffer.charAt(1));
 
     }
 }

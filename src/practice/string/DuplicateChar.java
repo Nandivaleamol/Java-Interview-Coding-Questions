@@ -7,7 +7,7 @@ public class DuplicateChar {
         String str = sc.nextLine();
         char d = 0;
         int count = 0;
-        for (int i=0; i<str.strip().length(); i++){
+        for (int i=0; i<str.trim().length(); i++){
             for (int j=i+1; j<str.length(); j++){
                 if (!Character.isWhitespace(str.charAt(j)) & !Character.isWhitespace(str.charAt(i)))
                     if (str.charAt(i) == str.charAt(j)){

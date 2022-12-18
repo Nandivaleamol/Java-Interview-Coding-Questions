@@ -10,7 +10,7 @@ public class RemovingLeadingAndTrailingWhitespaces {
 
         System.out.println();
         // since java 11 - strip() method is used to remove trailing and leading whitespaces
-        String strip = str.strip();
+        String strip = str.trim();
         System.out.println(strip);
     }
 

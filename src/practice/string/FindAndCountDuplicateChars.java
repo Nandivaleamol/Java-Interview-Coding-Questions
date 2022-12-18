@@ -13,7 +13,7 @@ public class FindAndCountDuplicateChars {
 
     public static void printDuplicateChars(String str){
 
-        char[] chars = str.strip().toCharArray();
+        char[] chars = str.trim().toCharArray();
 //        char[] chars = str.toCharArray();
 
         //build HashMap with character and number of time the appear in string
