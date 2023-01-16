@@ -20,8 +20,7 @@ public class StringWordReverse {
         System.out.println();
 
         // iterating string array using stream api
-       Arrays.stream(strArr).distinct().forEach(s->System.out.print(s+" "));
-
+       Arrays.stream(strArr).forEach(s->System.out.print(s+" "));
 
         // Problem Statement:- Write a java program reverse the given string sentence character wise and remove whitespaces.
         char[] strCharArr = str.trim().toCharArray();
@@ -31,6 +30,5 @@ public class StringWordReverse {
                System.out.print(strCharArr[i]+" ");
            }
         }
-
     }
 }
