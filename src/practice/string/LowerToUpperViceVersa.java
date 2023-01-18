@@ -9,7 +9,7 @@ public class LowerToUpperViceVersa {
         int len = str.length();
 
         for (int i=0; i<len; i++){
-            Character c = str.charAt(i);
+            char c = str.charAt(i);
             if (Character.isLowerCase(c)){
                 str.setCharAt(i, Character.toUpperCase(c));
             }else {
