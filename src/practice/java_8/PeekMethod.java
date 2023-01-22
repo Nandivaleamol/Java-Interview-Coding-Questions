@@ -12,6 +12,6 @@ public class PeekMethod {
 
         numbers.stream().distinct().peek(s-> System.out.println("After distinct method: "+s)).filter(n -> n % 2 == 1).peek(s -> System.out.println("After Filtering elements: " + s)).collect(Collectors.toList());
 
-
+        Stream.of("One","Two","Three","Four","Eleven","Eighteen").filter(e->e.length()>3).peek(p-> System.out.println("After Filtered Values: "+p)).map(String::toUpperCase).peek(p-> System.out.println("After Mapped values: "+p)).collect(Collectors.toList());
     }
 }
