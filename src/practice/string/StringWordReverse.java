@@ -30,5 +30,15 @@ public class StringWordReverse {
                System.out.print(strCharArr[i]+" ");
            }
         }
+
+        System.out.println();
+        String[] strArr1 = str.split("");
+        String revWord = "";
+        for (int i=strArr1.length-1; i>=0; i--){
+           if (!Character.isWhitespace(strCharArr[i])){
+               revWord = revWord+strArr1[i]+" ";
+           }
+        }
+        System.out.println(revWord);
     }
 }
